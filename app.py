@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
 
 @app.route('/', methods=['GET'])
 def index():
-    return render_template("index.html", version="1.2.0")
+    return render_template("index.html", version="1.3.0")
 
 
 @app.route('/api', methods=['GET'])
